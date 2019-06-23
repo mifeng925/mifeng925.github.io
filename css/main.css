@@ -1764,7 +1764,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff7;
+  background: #cb20ff;
 }
 .feed-link,
 .chat {
@@ -2472,4 +2472,19 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: url("/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+@font-face {
+  font-family: Zitiming;
+  src: url("/fonts/Zitiming.ttf");
+}
+.site-title {
+  font-size: 40px !important;
+  font-family: 'Zitiming' !important;
 }
